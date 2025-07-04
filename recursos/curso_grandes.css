@@ -1,0 +1,149 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/*imagen HERO*/
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ocupa toda la altura del viewport */
+    background: url('../img/portada.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+/* Contenido dentro del HERO */
+.contenedor-hero h1, .contenedor-hero h2{
+    text-align: center;
+    /*font-size: 55px;*/
+    font-size: 5rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ffffff, #74ca51, #ffffff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Esto hace que el texto tome el gradiente */
+    animation: shine 5s infinite linear;
+}
+
+.contenedor_quiz{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.contenedor_quiz > div ul{
+    list-style: none;
+    text-align: start;
+}
+.contenido{
+    text-align: justify;
+}
+.hint img{
+    display: none;
+    position: absolute;
+    width: 200px;
+}
+.hint .boton{
+    width: 400px;
+}
+.hint:hover img{
+    display: block;
+}
+.aqui{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #f00;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.aqui:hover{
+    width: 100px;
+    height: 100px;
+	transition: 1s ease-in;
+}
+@media(max-width: 1000px){
+    .info{
+        height: 100%;
+    }
+}
+@media(max-width: 800px){
+    .mantenimiento_imagen{
+        height: 32%;
+    }
+    .carrusel-item{
+        margin: 3%;
+    }
+
+}
+@media(max-width: 600px){
+    a{
+        font-size: 20px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    section{
+        width: 100%;
+    }
+    section .image_track{
+        display: contents;
+    }
+    section{
+        display: flex;
+        overflow: hidden;
+    }
+    .image_track {
+        display: flex;
+        width: 200%;
+    }
+    .image_track > img{
+        animation: movimiento 20s linear infinite;
+    }
+    .mantenimiento_imagen{
+        width: 30%;
+    }
+    .hero {
+        background: url('./img/hero_tlf4.jpg') no-repeat center center/cover;
+    }
+    .aqui{
+        width: 75%;
+    }
+    .contenedor-hero h1{
+        font-size: 4rem;
+    }
+    @keyframes movimiento {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-600%); /* Se mueve solo la mitad de la tira */
+        }
+    }
+}
+@media(max-width: 400px){
+    .mantenimiento_imagen{
+        height: 24%;
+    }
+    .contenedor-hero h1{
+        font-size: 2.5rem;
+    }
+    .contenedor-hero h2{
+        font-size: 3rem;
+    }
+}
