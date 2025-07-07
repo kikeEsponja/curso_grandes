@@ -14,92 +14,70 @@
         <link rel="stylesheet" href="../recursos/curso_grandes.css" type="text/css">
         <title>práctica</title>
     </head>
-<body>
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header bg-primary">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body bg-primary">
-          	<h2 class="text-warning">BIEN HECHO!</h2>
-          </div>
-          <div class="modal-footer bg-primary">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="contenido">
-        <h1>EL ORDENADOR</h1>
-        <h3>Componentes:</h3>
-        <ul>
-            <h5>Vendrían a ser las partes que van dentro de la Caja</h5>
-            <li>Placa base: también conocida como tarjeta madre o <span class="hint hint--bottom text-success">MotherBoard <img src="../img/motherboard.jpg" class="boton"></span>, es el componente principal, es un circuito integrado muy complejo que está equipado con ciertas ranuras en donde irán instalados los demás componentes. Las capacidades de esta varían deacuerdo a las marcas y necesidades.</li>
-            <li>Unidad central de procesamiento (UCP): generalmente conocida como <span class="hint hint--bottom text-success">CPU <img src="../img/ucp.jpg" class="boton"></span> (Central Processing Unit) y comunmente confundida con el Case. Es una pieza minúscula (hoy debe ser del tamaño de una uña) que vendría a ser el cerebro de la máquina ya que gobierna todos los componentes, periféricos y, tristemente, a los usuarios en gran medida. Va instalado sobre la <span class="hint hint--bottom text-success">placa base <img src="../img/motherboard-cpu.jpg" class="boton"></span>.</li>
-            <li>ventiladores: Se les conoce como <span class="hint hint--bottom text-success">Fan Cooler <img src="../img/fan.jpg" class="boton"></span>, que es justamente eso, un ventilador, está instalado en la placa base y sirve para enfriar al procesador, es conveniente instalar varios más para enfriar otros componentes, adicionalmente, el procesador está rodeado por una pasta térmica que evita que se funda ya que trabaja tan rápido que llega a ponerse al rojo vivo en pocos segundos sin estos sistemas de enfriamiento.</li>
-            <li>Memoria RAM: (Random Access Memory) o <span class="hint hint--bottom text-success">memoria de acceso aleatorio<img src="../img/mb-ram.jpg" class="boton"></span>, es un circuito complejo y fundamental para el funcionamiento de la máquina. Se encarga de almacenar datos de manera temporal mientras el ordenador está en uso, y se vacía al apagarse o reiniciarse este. Van instaladas en la placa base y tienen capacidades limitadas, generalmente expresadas en GigaBytes.</li>
-            <li>Disco rígido: también conocido como <span class="hint hint--bottom text-success">disco duro<img src="../img/mb-harddisk.jpg" class="boton"></span> o hard disk, es la unidad central de almacenamiento, es ahí donde se guardarán los datos que se mantendrán fijos y podrán ser manipulados por el usuario en cualquier momento, excepto, claro, aquellos datos que pertenezcan al sistema operativo, a los cuales el usuario ordinario no tiene acceso, y de tenerlo, no se recomienda su manipulación. Va instalado en la placa base y conectado también a la fuente de poder.</li>
-            <li>Fuente de poder: La van a encontrar como <span class="hint hint--bottom text-success">Power Supply <img src="../img/mb-ps.jpg" class="boton"></span> y es el dispositivo que recibe la energía desde la toma-corriente y la distribuye de forma adecuada a la motherboard y a los diversos componentes. Va conectada a la placa base.</li>
-            <li>Tarjeta de video: Es un circuito integrado que va instalado en la placa base, también se le conoce como <span class="hint hint--bottom text-success">Video Card<img src="../img/mb-videocard.jpg" class="boton"></span> y está encargado de proporcionar la data necesaria para formar las imágenes que verá el usuario en la pantalla. Hay que aclarar que la mayoría de las placas base cuentan con una tarjeta de video integrada, pero para su funcionamiento, toma una parte de la memoria RAM, y esto se evita usando una extra. Tiene una conexión externa en la que va conectado el monitor o pantalla.</li>
-            <li>Tarjeta de sonido: en las vitrinas se las ve bajo el nombre de <span class="hint hint--bottom text-success">Sound Card<img src="../img/mb-soundcard.jpg" class="boton"></span> y sirven para conectar los periféricos encargados de emitir sonidos (bocinas). Para ello cuentan con diversos "plugs" de colores para facilitar su identificación (verde es para audio, rojo para micrófono). Va conectada a la placa base. Hay que aclarar que la mayoría de las placas base cuentan con una tarjeta de sonido integrada, pero es de una calidad estandar que los fabricantes de tarjetas de sonido superan por mucho.</li>
-            <li>Tarjeta de red: Se encargan de conectar al ordenador con el <span class="hint hint--bottom text-success">mundo<img src="../img/mb-web.jpg" class="boton"></span> a través de la red mundial. Actualmente, la mayoría de las motherboard cuentan con una integrada, pero no siempre fue así. Es algo prácticamente nuevo.</li>
-            <li>Otras tarjetas: Existen otras tarjetas que pueden ser instaladas en las placas base con diversas funciones, esto dependerá, claro, de la cantidad de ranuras o slots con las que cuente la motherboard.
-                <ul>
-                    <li>Tarjetas de impresora</li>
-                    <li>tarjetas bluetooth</li>
-                    <li>tarjetas wi-fi</li>
-                    <li>puertos de juego</li>
-                    <li>puertos de Televisión</li>
-                    <li>lectores USB</li>
-                    <li>unidades lectoras (CD, DVD)</li>
-                </ul>
-            </li>
-        </ul>
-		<hr>
-		<div class="ejercicio">
-    		<h3>Practiquemos un poco: </h3>
-    		<h4>Los componentes de una compu están todos integrados a la placa base?</h4>
-    		<p>Seleccione la respuesta correcta:</p>
-    		<button id='mal1' type='button'>a- No, la placa base es el único componente de un ordenador.</button>
-    		<button id='mal3' type='button'>b- No, la placa base no tiene nigún componente integrado.</button>
-    		<button id='bien' type='button' data-bs-toggle="modal" data-bs-target="#exampleModal" id='mal2' type='button'>c- Sólo los básicos, otros, son externos a la placa base.</button>
-    		<button id='mal3' type='button'>d- Sí, una placa base tiene todos los componentes integrados.</button>
-    		<span id="bienhecho"></span>
-		</div>
-		<div class="text-center">
-	    	<a href="./cap_01_ordenador.html">Volver a clase 1</a>
-    		<a href="./indice.html" class="volver">Volver al inicio</a>
-			<a href="./cap_03_perifericos.html">ir a periféricos</a>
-		</div>
-	</div>
-
-	<script>
-    	let mal1 = document.getElementById('mal1');
-    	let mal2 = document.getElementById('mal2');
-    	let mal3 = document.getElementById('mal3');
-    	let intentos = 2;
-		
-    	const evaluar = () => {
-    	    intentos = intentos - 1;
-    	    alert('te quedan ' + intentos + ' intentos');
-    		repaso();
-    	}
+	<body>
 	
-    	mal1.addEventListener('click', evaluar);
-    	mal2.addEventListener('click', evaluar);
-    	mal3.addEventListener('click', evaluar);
+	    <!-- Modal -->
+	    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	      <div class="modal-dialog">
+	        <div class="modal-content">
+	          <div class="modal-header bg-primary">
+	            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	          </div>
+	          <div class="modal-body bg-primary">
+	          	<h2 class="text-warning">BIEN HECHO!</h2>
+	          </div>
+	          <div class="modal-footer bg-primary">
+	            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
 	
-    	function repaso(){
-    	    if(intentos < 1){
-    	        alert('debes repasar!');
-    	        window.history.back();
-    	    }
-    	}
-  	</script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+	    <div class="contenido">
+	        <h1>EL ORDENADOR</h1>
+	        <h3>Componentes:</h3>
+	        <ul>
+	            <h5>Vendrían a ser las partes que van dentro de la Caja</h5>
+	            <li>Placa base: también conocida como tarjeta madre o <span class="hint hint--bottom text-success">MotherBoard <img src="../img/motherboard.jpg" class="boton"></span>, es el componente principal, es un circuito integrado muy complejo que está equipado con ciertas ranuras en donde irán instalados los demás componentes. Las capacidades de esta varían deacuerdo a las marcas y necesidades.</li>
+	            <li>Unidad central de procesamiento (UCP): generalmente conocida como <span class="hint hint--bottom text-success">CPU <img src="../img/ucp.jpg" class="boton"></span> (Central Processing Unit) y comunmente confundida con el Case. Es una pieza minúscula (hoy debe ser del tamaño de una uña) que vendría a ser el cerebro de la máquina ya que gobierna todos los componentes, periféricos y, tristemente, a los usuarios en gran medida. Va instalado sobre la <span class="hint hint--bottom text-success">placa base <img src="../img/motherboard-cpu.jpg" class="boton"></span>.</li>
+	            <li>ventiladores: Se les conoce como <span class="hint hint--bottom text-success">Fan Cooler <img src="../img/fan.jpg" class="boton"></span>, que es justamente eso, un ventilador, está instalado en la placa base y sirve para enfriar al procesador, es conveniente instalar varios más para enfriar otros componentes, adicionalmente, el procesador está rodeado por una pasta térmica que evita que se funda ya que trabaja tan rápido que llega a ponerse al rojo vivo en pocos segundos sin estos sistemas de enfriamiento.</li>
+	            <li>Memoria RAM: (Random Access Memory) o <span class="hint hint--bottom text-success">memoria de acceso aleatorio<img src="../img/mb-ram.jpg" class="boton"></span>, es un circuito complejo y fundamental para el funcionamiento de la máquina. Se encarga de almacenar datos de manera temporal mientras el ordenador está en uso, y se vacía al apagarse o reiniciarse este. Van instaladas en la placa base y tienen capacidades limitadas, generalmente expresadas en GigaBytes.</li>
+	            <li>Disco rígido: también conocido como <span class="hint hint--bottom text-success">disco duro<img src="../img/mb-harddisk.jpg" class="boton"></span> o hard disk, es la unidad central de almacenamiento, es ahí donde se guardarán los datos que se mantendrán fijos y podrán ser manipulados por el usuario en cualquier momento, excepto, claro, aquellos datos que pertenezcan al sistema operativo, a los cuales el usuario ordinario no tiene acceso, y de tenerlo, no se recomienda su manipulación. Va instalado en la placa base y conectado también a la fuente de poder.</li>
+	            <li>Fuente de poder: La van a encontrar como <span class="hint hint--bottom text-success">Power Supply <img src="../img/mb-ps.jpg" class="boton"></span> y es el dispositivo que recibe la energía desde la toma-corriente y la distribuye de forma adecuada a la motherboard y a los diversos componentes. Va conectada a la placa base.</li>
+	            <li>Tarjeta de video: Es un circuito integrado que va instalado en la placa base, también se le conoce como <span class="hint hint--bottom text-success">Video Card<img src="../img/mb-videocard.jpg" class="boton"></span> y está encargado de proporcionar la data necesaria para formar las imágenes que verá el usuario en la pantalla. Hay que aclarar que la mayoría de las placas base cuentan con una tarjeta de video integrada, pero para su funcionamiento, toma una parte de la memoria RAM, y esto se evita usando una extra. Tiene una conexión externa en la que va conectado el monitor o pantalla.</li>
+	            <li>Tarjeta de sonido: en las vitrinas se las ve bajo el nombre de <span class="hint hint--bottom text-success">Sound Card<img src="../img/mb-soundcard.jpg" class="boton"></span> y sirven para conectar los periféricos encargados de emitir sonidos (bocinas). Para ello cuentan con diversos "plugs" de colores para facilitar su identificación (verde es para audio, rojo para micrófono). Va conectada a la placa base. Hay que aclarar que la mayoría de las placas base cuentan con una tarjeta de sonido integrada, pero es de una calidad estandar que los fabricantes de tarjetas de sonido superan por mucho.</li>
+	            <li>Tarjeta de red: Se encargan de conectar al ordenador con el <span class="hint hint--bottom text-success">mundo<img src="../img/mb-web.jpg" class="boton"></span> a través de la red mundial. Actualmente, la mayoría de las motherboard cuentan con una integrada, pero no siempre fue así. Es algo prácticamente nuevo.</li>
+	            <li>Otras tarjetas: Existen otras tarjetas que pueden ser instaladas en las placas base con diversas funciones, esto dependerá, claro, de la cantidad de ranuras o slots con las que cuente la motherboard.
+	                <ul>
+	                    <li>Tarjetas de impresora</li>
+	                    <li>tarjetas bluetooth</li>
+	                    <li>tarjetas wi-fi</li>
+	                    <li>puertos de juego</li>
+	                    <li>puertos de Televisión</li>
+	                    <li>lectores USB</li>
+	                    <li>unidades lectoras (CD, DVD)</li>
+	                </ul>
+	            </li>
+	        </ul>
+			<hr>
+			<div class="ejercicio">
+	    		<h3>Practiquemos un poco: </h3>
+	    		<h4>Los componentes de una compu están todos integrados a la placa base?</h4>
+	    		<p>Seleccione la respuesta correcta:</p>
+	    		<button id='mal1' type='button'>a- No, la placa base es el único componente de un ordenador.</button>
+	    		<button id='mal3' type='button'>b- No, la placa base no tiene nigún componente integrado.</button>
+	    		<button id='bien' type='button' data-bs-toggle="modal" data-bs-target="#exampleModal" id='mal2' type='button'>c- Sólo los básicos, otros, son externos a la placa base.</button>
+	    		<button id='mal3' type='button'>d- Sí, una placa base tiene todos los componentes integrados.</button>
+	    		<span id="bienhecho"></span>
+			</div>
+			<div class="text-center">
+		    	<a href="./cap_01_ordenador.html">Volver a clase 1</a>
+	    		<a href="./indice.html" class="volver">Volver al inicio</a>
+				<a href="./cap_03_perifericos.html">ir a periféricos</a>
+			</div>
+		</div>
+	
+		<script src="../recursos/curso_grandes_respuestas.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	</body>
 </html>

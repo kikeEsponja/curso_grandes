@@ -14,57 +14,60 @@
         <link rel="stylesheet" href="../recursos/curso_grandes.css" type="text/css">
         <title>práctica</title>
     </head>
-<body>
+    <body>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header bg-primary">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body bg-primary">
-      	        <h2 class="text-warning">BIEN HECHO!</h2>
-            </div>
-            <div class="modal-footer bg-primary">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-primary">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body bg-primary">
+              	        <h2 class="text-warning">BIEN HECHO!</h2>
+                    </div>
+                    <div class="modal-footer bg-primary">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
 
-    <div>
-        <h1>Office</h1>
-        <h3>Continuamos con Word </h3>
-        <h5>La aplicación cuenta con un panel superior con ocho pestañas, se explicarán las funciones de uso más común de estas, instando al usuario a practicar y experimentar con el resto.</h5>
-        <h4>Pestaña <div class="hint hint--top text-warning">Archivo:<img src="../img/office-tabs.jpg"></div></h4>
-        <h5>Contiene las opciones referentes al archivo: guardar y guardar como. La primera guarda los cambios hechos en un archivo, la segunda guarda un archivo nuevo. Si tocamos la opción guardar escribiendo un archivo nuevo, este actuará igual que "guardar como", y si usamos guardar como escribiendo un archivo existente, lo tomará como un archivo nuevo.</h5>
-        <h5>Abrir muestra un panel con las ubicaciones que contienen los archivos.</h5>
-        <h5>Cerrar actua como la opción salir pero sólo cierra el documento, la ventana de la aplicación permanecerá abierta.</h5>
-        <h5>Información abre un panel lateral con información acerca del documento que estamos escribiendo.</h5>
-        <h5>Reciente muestra un panel lateral con los últimos documentos que hemos usado.</h5>
-        <h5>Nuevo, nos muestra un panel para elegir el tipo de documento que queremos crear; desde un documento en blanco hasta plantillas prediseñadas.</h5>
-        <h5>Imprimir muestra un panel lateral con las instrucciones para imprimir el documento.</h5>
-        <h5>Guardar y enviar muestra un panel lateral que nos permite guardar el documento y enviarlo a diversos destinos.</h5>
-        <h5>Ayuda muestra un panel lateral con opciones de soporte.</h5>
-        <h5>Opciones nos muestra un cuadro con variadas opciones que podemos aplicar a nuestro documento.</h5>
-        <h5>Salir, cierra la aplicación.</h5>
-	</div>
-    <hr>
-	<div class="ejercicio">
-    	<h3>Practiquemos un poco: </h3>
-    	<h4>Las primeras computadoras fueron diseñadas para el público en general</h4>
-    	<p>Seleccione la respuesta correcta:</p>
-    	<button id='mal3' type='button'>a- No existieron las primeras computadoras</button>
-    	<button id='mal1' type='button'>b- Sólo estaban disponibles para las escuelas primarias.</button>
-    	<button id='mal2' type='button'>c- Sí, cualquiera podía comprar una Mark I.</button>
-    	<button id='bien' type='button' data-bs-toggle="modal" data-bs-target="#exampleModal">d- No, se diseñaron para las grandes instituciones y el ejército.</button>
-    	<span id="bienhecho"></span>
-	</div>
+        <div class="contenido">
+            <h1>Office</h1>
+            <h3>Continuamos con Word </h3>
+            <h5>La aplicación cuenta con un panel superior con ocho pestañas, se explicarán las funciones de uso más común de estas, instando al usuario a practicar y experimentar con el resto.</h5>
+            <h4>Pestaña <span class="hint hint--top text-warning">Archivo:<img src="../img/office-tabs.jpg" class="boton"></span></h4>
+            <h5>Contiene las opciones referentes al archivo: guardar y guardar como. La primera guarda los cambios hechos en un archivo, la segunda guarda un archivo nuevo. Si tocamos la opción guardar escribiendo un archivo nuevo, este actuará igual que "guardar como", y si usamos guardar como escribiendo un archivo existente, lo tomará como un archivo nuevo.</h5>
+            <h5>Abrir muestra un panel con las ubicaciones que contienen los archivos.</h5>
+            <h5>Cerrar actua como la opción salir pero sólo cierra el documento, la ventana de la aplicación permanecerá abierta.</h5>
+            <h5>Información abre un panel lateral con información acerca del documento que estamos escribiendo.</h5>
+            <h5>Reciente muestra un panel lateral con los últimos documentos que hemos usado.</h5>
+            <h5>Nuevo, nos muestra un panel para elegir el tipo de documento que queremos crear; desde un documento en blanco hasta plantillas prediseñadas.</h5>
+            <h5>Imprimir muestra un panel lateral con las instrucciones para imprimir el documento.</h5>
+            <h5>Guardar y enviar muestra un panel lateral que nos permite guardar el documento y enviarlo a diversos destinos.</h5>
+            <h5>Ayuda muestra un panel lateral con opciones de soporte.</h5>
+            <h5>Opciones nos muestra un cuadro con variadas opciones que podemos aplicar a nuestro documento.</h5>
+            <h5>Salir, cierra la aplicación.</h5>
+    	</div>
+        <hr>
+    	<div class="ejercicio">
+        	<h3>Practiquemos un poco: </h3>
+        	<h4>Las primeras computadoras fueron diseñadas para el público en general</h4>
+        	<p>Seleccione la respuesta correcta:</p>
+        	<button id='mal3' type='button'>a- No existieron las primeras computadoras</button>
+        	<button id='mal1' type='button'>b- Sólo estaban disponibles para las escuelas primarias.</button>
+        	<button id='mal2' type='button'>c- Sí, cualquiera podía comprar una Mark I.</button>
+        	<button id='bien' type='button' data-bs-toggle="modal" data-bs-target="#exampleModal">d- No, se diseñaron para las grandes instituciones y el ejército.</button>
+        	<span id="bienhecho"></span>
+    	</div>
 
-    <a href="./office-word2.html">continuación Word</a>
-    <a href="./indice.html" class="volver">Volver al inicio</a>
-	<script src="./nivel.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+        <div class="text-center">
+            <a href="./cap_09_office.html">Volver a clase anterior</a>
+            <a href="./indice.html" class="volver">Volver al inicio</a>
+            <a href="./office-word2.html">continuación Word</a>
+        </div>
+    	<script src="../recursos/curso_grandes_respuestas.js"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
 </html>

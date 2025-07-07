@@ -11,80 +11,68 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="./nivel.css" type="text/css">
+        <link rel="stylesheet" href="../recursos/curso_grandes.css" type="text/css">
         <title>práctica</title>
-        <style>
-            .hint img{
-                display: none;
-                position: absolute;
-                width: 200px;
-            }
-            .hint .boton{
-                width: 400px;
-            }
-            .hint:hover img{
-                display: block;
-            }
-            .card{
-                border: none;
-            }
-        </style>
     </head>
-<body>
+    <body>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header bg-primary">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body bg-primary">
-      	        <h2 class="text-warning">BIEN HECHO!</h2>
-            </div>
-            <div class="modal-footer bg-primary">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-primary">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body bg-primary">
+              	        <h2 class="text-warning">BIEN HECHO!</h2>
+                    </div>
+                    <div class="modal-footer bg-primary">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
 
-    <div>
-        <h1>Office</h1>
-        <h3>PowerPoint:</h3>
-        <h4>Es una herramienta para crear presentaciones. Con la ayuda de un proyector de imágenes genera impacto visual eficiente para cualquier exposición.</h4>
-        <h5>Las pestañas con las que cuenta esta aplicación son muy parecidas a las de Word con sutiles diferencias adaptadas a crear diapósitivas. En la pestaña insertar, por ejemplo, se encuentran las opciones de agregar audio y video que no están en Word.</h5>
-        <h5>También tiene pestañas propias como Transiciones y Animaciones que permiten crear Presentaciones muy profesionales.</h5>
-	</div>
-    <hr>
-    <div>
-        <h3>Publisher:</h3>
-        <h4>Esta herramienta se utiliza para crear variedad de documentos a partir de plantillas, van desde folletos, pancartas, cartas, sobres y figuras de papel.</h4>
-        <h5>También tiene pestañas muy parecidas a las aplicaciones anteriores con ciertas adaptaciones propias.</h5>
-    </div>
-    <hr>
-    <div>
-        <h3>Excel</h3>
-        <h4>Esta herramienta es muy util para diversas áreas, desde la administración hasta la ingeniería.</h4>
-        <h5>Sólo se va a explicar de manera superficial pero es bueno acotar que incluso sirve para programar, lo que quiere decir que es recomendable tomar un curso para manejar excel a profundidad.</h5>
-        <h5>Se trata de una hoja de cálculo, en cuanto a las pestañas superiores, no tienen mucha diferencia con el resto de las otras, excepto por la pestaña "fórmulas" que le es propia.</h5>
-        <h5>En resumen, consta de una serie de filas y columnas que forman una matriz de celdas en las que se pueden insertar datos, pero lo interesante es la capacidad que tienen esas celdas de interactuar entre sí, pudiendo hacer cálculos que de otra forma llevarían mucho tiempo y esfuerzo.</h5>
-        <h5>Se ha convertido en una herramienta indispensable en las áreas administrativas, de informática e ingeniería.</h5>
-    </div>
-	<div class="ejercicio">
-    	<h3>Practiquemos un poco: </h3>
-    	<h4>Las primeras computadoras fueron diseñadas para el público en general</h4>
-    	<p>Seleccione la respuesta correcta:</p>
-    	<button id='mal3' type='button'>a- No existieron las primeras computadoras</button>
-    	<button id='mal1' type='button'>b- Sólo estaban disponibles para las escuelas primarias.</button>
-    	<button id='mal2' type='button'>c- Sí, cualquiera podía comprar una Mark I.</button>
-    	<button id='bien' type='button' data-bs-toggle="modal" data-bs-target="#exampleModal">d- No, se diseñaron para las grandes instituciones y el ejército.</button>
-    	<span id="bienhecho"></span>
-	</div>
+        <div class="contenido">
+            <h1>Office</h1>
+            <h3>PowerPoint:</h3>
+            <h4>Es una herramienta para crear presentaciones. Con la ayuda de un proyector de imágenes genera impacto visual eficiente para cualquier exposición.</h4>
+            <h5>Las pestañas con las que cuenta esta aplicación son muy parecidas a las de Word con sutiles diferencias adaptadas a crear diapósitivas. En la pestaña insertar, por ejemplo, se encuentran las opciones de agregar audio y video que no están en Word.</h5>
+            <h5>También tiene pestañas propias como Transiciones y Animaciones que permiten crear Presentaciones muy profesionales.</h5>
 
-    <a href="./office-internet.html">internet</a>
-    <a href="./indice.html" class="volver">Volver al inicio</a>
-	<script src="./nivel.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+            <hr>
+            <div>
+                <h3>Publisher:</h3>
+                <h4>Esta herramienta se utiliza para crear variedad de documentos a partir de plantillas, van desde folletos, pancartas, cartas, sobres y figuras de papel.</h4>
+                <h5>También tiene pestañas muy parecidas a las aplicaciones anteriores con ciertas adaptaciones propias.</h5>
+            </div>
+            <hr>
+            <div>
+                <h3>Excel</h3>
+                <h4>Esta herramienta es muy util para diversas áreas, desde la administración hasta la ingeniería.</h4>
+                <h5>Sólo se va a explicar de manera superficial pero es bueno acotar que incluso sirve para programar, lo que quiere decir que es recomendable tomar un curso para manejar excel a profundidad.</h5>
+                <h5>Se trata de una hoja de cálculo, en cuanto a las pestañas superiores, no tienen mucha diferencia con el resto de las otras, excepto por la pestaña "fórmulas" que le es propia.</h5>
+                <h5>En resumen, consta de una serie de filas y columnas que forman una matriz de celdas en las que se pueden insertar datos, pero lo interesante es la capacidad que tienen esas celdas de interactuar entre sí, pudiendo hacer cálculos que de otra forma llevarían mucho tiempo y esfuerzo.</h5>
+                <h5>Se ha convertido en una herramienta indispensable en las áreas administrativas, de informática e ingeniería.</h5>
+                <div class="ejercicio">
+                	<h3>Practiquemos un poco: </h3>
+                	<h4>Las primeras computadoras fueron diseñadas para el público en general</h4>
+                	<p>Seleccione la respuesta correcta:</p>
+                	<button id='mal3' type='button'>a- No existieron las primeras computadoras</button>
+                	<button id='mal1' type='button'>b- Sólo estaban disponibles para las escuelas primarias.</button>
+                	<button id='mal2' type='button'>c- Sí, cualquiera podía comprar una Mark I.</button>
+                	<button id='bien' type='button' data-bs-toggle="modal" data-bs-target="#exampleModal">d- No, se diseñaron para las grandes instituciones y el ejército.</button>
+                	<span id="bienhecho"></span>
+    	        </div>
+            
+                <div class="text-center">
+                    <a href="./office-word2.html">Volver a clase anterior</a>
+                    <a href="./indice.html" class="volver">Volver al inicio</a>
+                    <a href="./office-internet.html">Internet</a>
+                </div>
+            </div>
+        </div>
+    	<script src="./nivel.js"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
 </html>

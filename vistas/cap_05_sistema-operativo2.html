@@ -14,58 +14,61 @@
         <link rel="stylesheet" href="../recursos/curso_grandes.css" type="text/css">
         <title>práctica</title>
     </head>
-<body>
+	<body>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header bg-primary">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body bg-primary">
-      	<h2 class="text-warning">BIEN HECHO!</h2>
-      </div>
-      <div class="modal-footer bg-primary">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-    <div>
-        <h1>EL ORDENADOR</h1>
-        <h3>Sistema operativo:</h3>
-        <h5>La unidad asignada no es más que el directorio o carpeta principal que contendrá todos los datos que conformarán los programas y archivos. Y para crear y manipular estos archivos y carpetas, el sistema operativo cuenta con una serie decomandos preestablecidos que puede "entender"y trabajar en función de estos.</h5>
-        <h5>Así, y suponiendo que al encender nuestro ordenador en el año 1990 y ver el símbolo del sistema posicionado en C:\> lo primero que podíaamos hacer es pedirle a nuestro flamante equipo que nos mostrara el contenido; así que tecleamos la palabra "dir" y presionamos la tecla <div class="hint hint--top text-warning">"intro"<img src="../img/so-intro.webp"></div> o "enter"</h5>
-        <h5>Mágicamente, en la pantalla aparecía todo el contenido de la unidad C:\> que para el usuario común era una <div class="hint hint--top text-warning">lista<img src="../img/so-dir.png" class="boton"></div> incomprensible de archivos que era preferible ni tocar.</h5>
-        <h5>Entonces comprendíamos. Esos archivos no se tocan o nos tocará llamar al técnico, así que había que crear una carpeta en la que tener nuestros archivos particulares separados de esos otros intocables. Así que tecleabamos el comando "md" seguido del nombre de la carpeta que queríamos crear: "md mi_carpeta".</h5>
-        <h5>Para estar seguros, porque el sistema no nos daba ninguna confirmación o mensaje de que lo que hicimos haya tenido éxito, más sí lo hacía si había fallado, tecleabamos de nuevo "dir" y listo, aparecía la misma lista con nuestra carpeta nueva como nuevo item. Este nuevo item se diferenciaba de los otros porque carecía de extensión, ya que las extensiones son propiedad de los archivos, no de las carpetas.</h5>
-        <h5>Una extensión es aquella parte del archivo que sirve para ubicarlo dentro de una categoría (música, imagen, video, documento, entre otros). Para construir un archivo, basta con colocarle un nombre, luego un punto y una extensión, así: "nombre.extension"</h5>
-        <h5>Entonces nuestra creación no tenía extensión, por lo tanto era una carpeta; y estaba ahí en la lista, recuerden que no había interfaz gráfica como windows donde podíamos hacer este proceso como lo hacemos ahora. Bien, ahora teníamos que entrar a la carpeta, así que tecleabamos el comando "cd" seguido del nombre de nuestra carpeta: "cd carpeta", y qué aparecía?</h5>
-        <h4>C:\mi_carpeta></h4>
-        <h5>Emocionante, para chismear, volvíamos a teclear "dir" a sabiendas de que no habíamos creado nada ahí, entonces la sorpresa: hay dos items ahí, qué son? uno es un punto (.) y el otro son dos puntos (..)</h5>
-        <h5>Bueno, el punto es el sitio en el que estamos (mi_carpeta) y los dos puntos significa "regreso" o "volver". O cómo tenían pensado salir de la carpeta? bueno, se usa el mismo comando "cd" seguido de esos dos puntos: "cd.."</h5>
-        <hr>
-        <h5>Lo que seguía era crear un archivo dentro de esa nueva carpeta, asi que usábamos el comando "edit" seguido del nombre y extensión del archivo a crear: "edit hola.txt" y esto nos abría un editor de texto integrado y podíamos escribir cualquier cosa. Luego guardábamos nuestro aarchivo con la combinación de teclas "Alt + s" y listo. Luego usabamos la combinación "Alt + x" para salir del editor.</h5>
-        <h5>si tecleabamos nuevamente "dir", podíamos ver, aparte del punto y los dos puntos, nuestro archivo hola.txt</h5>
-        <h5>finalmente, y para no tener la pantalla hecha un lío, tecleabamos el comando "cls" y desaparecía todo.</h5>
-	</div>
-    <hr>
-	<div class="ejercicio">
-    	<h3>Practiquemos un poco: </h3>
-    	<h4>El comando "md" se usa para moverse entre directorios?</h4>
-    	<p>Seleccione la respuesta correcta:</p>
-    	<button id='bien' type='button' data-bs-toggle="modal" data-bs-target="#exampleModal">a- No, se usa para crear directorios o carpetas</button>
-    	<button id='mal1' type='button'>b- Sí, se usa para navegar entre directorios.</button>
-    	<button id='mal2' type='button'>c- Sí, haciendo uso del comando "md" + ..</button>
-    	<button id='mal3' type='button'>d- No existe el comando "md".</button>
-    	<span id="bienhecho"></span>
-	</div>
-
-  <a href="./windows.html">ir a windows</a>
-  <a href="./indice.html" class="volver">Volver al inicio</a>
-	<script src="./nivel.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header bg-primary">
+		        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      </div>
+		      <div class="modal-body bg-primary">
+		      	<h2 class="text-warning">BIEN HECHO!</h2>
+		      </div>
+		      <div class="modal-footer bg-primary">
+		        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	
+    	<div class="contenido">
+    	    <h1>EL ORDENADOR</h1>
+    	    <h3>Sistema operativo:</h3>
+    	    <h5>La unidad asignada no es más que el directorio o carpeta principal que contendrá todos los datos que conformarán los programas y archivos. Y para crear y manipular estos archivos y carpetas, el sistema operativo cuenta con una serie decomandos preestablecidos que puede "entender"y trabajar en función de estos.</h5>
+    	    <h5>Así, y suponiendo que al encender nuestro ordenador en el año 1990 y ver el símbolo del sistema posicionado en C:\> lo primero que podíaamos hacer es pedirle a nuestro flamante equipo que nos mostrara el contenido; así que tecleamos la palabra "dir" y presionamos la tecla <span class="hint hint--top text-warning">"intro"<img src="../img/so-intro.webp" class="boton"></span> o "enter"</h5>
+    	    <h5>Mágicamente, en la pantalla aparecía todo el contenido de la unidad C:\> que para el usuario común era una <span class="hint hint--top text-warning">lista<img src="../img/so-dir.png" class="boton"></span> incomprensible de archivos que era preferible ni tocar.</h5>
+    	    <h5>Entonces comprendíamos. Esos archivos no se tocan o nos tocará llamar al técnico, así que había que crear una carpeta en la que tener nuestros archivos particulares separados de esos otros intocables. Así que tecleabamos el comando "md" seguido del nombre de la carpeta que queríamos crear: "md mi_carpeta".</h5>
+    	    <h5>Para estar seguros, porque el sistema no nos daba ninguna confirmación o mensaje de que lo que hicimos haya tenido éxito, más sí lo hacía si había fallado, tecleabamos de nuevo "dir" y listo, aparecía la misma lista con nuestra carpeta nueva como nuevo item. Este nuevo item se diferenciaba de los otros porque carecía de extensión, ya que las extensiones son propiedad de los archivos, no de las carpetas.</h5>
+    	    <h5>Una extensión es aquella parte del archivo que sirve para ubicarlo dentro de una categoría (música, imagen, video, documento, entre otros). Para construir un archivo, basta con colocarle un nombre, luego un punto y una extensión, así: "nombre.extension"</h5>
+    	    <h5>Entonces nuestra creación no tenía extensión, por lo tanto era una carpeta; y estaba ahí en la lista, recuerden que no había interfaz gráfica como windows donde podíamos hacer este proceso como lo hacemos ahora. Bien, ahora teníamos que entrar a la carpeta, así que tecleabamos el comando "cd" seguido del nombre de nuestra carpeta: "cd carpeta", y qué aparecía?</h5>
+    	    <h4>C:\mi_carpeta></h4>
+    	    <h5>Emocionante, para chismear, volvíamos a teclear "dir" a sabiendas de que no habíamos creado nada ahí, entonces la sorpresa: hay dos items ahí, qué son? uno es un punto (.) y el otro son dos puntos (..)</h5>
+    	    <h5>Bueno, el punto es el sitio en el que estamos (mi_carpeta) y los dos puntos significa "regreso" o "volver". O cómo tenían pensado salir de la carpeta? bueno, se usa el mismo comando "cd" seguido de esos dos puntos: "cd.."</h5>
+    	    <hr>
+    	    <h5>Lo que seguía era crear un archivo dentro de esa nueva carpeta, asi que usábamos el comando "edit" seguido del nombre y extensión del archivo a crear: "edit hola.txt" y esto nos abría un editor de texto integrado y podíamos escribir cualquier cosa. Luego guardábamos nuestro aarchivo con la combinación de teclas "Alt + s" y listo. Luego usabamos la combinación "Alt + x" para salir del editor.</h5>
+    	    <h5>si tecleabamos nuevamente "dir", podíamos ver, aparte del punto y los dos puntos, nuestro archivo hola.txt</h5>
+    	    <h5>finalmente, y para no tener la pantalla hecha un lío, tecleabamos el comando "cls" y desaparecía todo.</h5>
+			<hr>
+			<div class="ejercicio">
+    			<h3>Practiquemos un poco: </h3>
+    			<h4>El comando "md" se usa para moverse entre directorios?</h4>
+    			<p>Seleccione la respuesta correcta:</p>
+    			<button id='bien' type='button' data-bs-toggle="modal" data-bs-target="#exampleModal">a- No, se usa para crear directorios o carpetas</button>
+    			<button id='mal1' type='button'>b- Sí, se usa para navegar entre directorios.</button>
+    			<button id='mal2' type='button'>c- Sí, haciendo uso del comando "md" + ..</button>
+    			<button id='mal3' type='button'>d- No existe el comando "md".</button>
+    			<span id="bienhecho"></span>
+			</div>
+			<div class="text-center">
+				<a href="./cap_04_sistema-operativo.html">Volver a clase 4</a>
+  				<a href="./indice.html" class="volver">Volver al inicio</a>
+				<a href="./cap_06_windows.html">ir a windows</a>
+			</div>
+		</div>
+	
+		<script src="../recursos/curso_grandes_respuestas.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	</body>
 </html>

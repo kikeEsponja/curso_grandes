@@ -14,62 +14,66 @@
         <link rel="stylesheet" href="../recursos/curso_grandes.css" type="text/css">
         <title>práctica</title>
     </head>
-<body>
+    <body>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header bg-primary">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body bg-primary">
-      	        <h2 class="text-warning">BIEN HECHO!</h2>
-            </div>
-            <div class="modal-footer bg-primary">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-primary">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body bg-primary">
+              	        <h2 class="text-warning">BIEN HECHO!</h2>
+                    </div>
+                    <div class="modal-footer bg-primary">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
 
-    <div>
-        <h1>Office</h1>
-        <h3>Continuamos con Word </h3>
-        <h4>Pestaña <div class="hint hint--top text-warning">Inicio:<img src="../img/office-word-inicio.jpg" class="boton"></div></h4>
-        <h5>Contiene las funciones principales de edición de un documento de texto.</h5>
-        <h5>Las funciones cortar, copiar y pegar están al principio, seguidas de las funciones para dar formato a la <span class="hint hint--top" aria-label="La letra">fuente</span> comoel tamaño, el color, negrita, cursiva, subrayado, entre otros.</h5>
-        <h5>Funciones de párrafo, en esta sección se encuentran los espacios entre líneas, la alineación del texto, las viñetas, elcolor de fondo y bordes.</h5>
-        <h5>Funciones de estilo, Da un formato predeterminado al documento.</h5>
-        <h5>Por último la sección de edición muestra funciones de búsqueda, reemplazo y selección. La búsqueda puede encontrar cualquier palabra que queramos dentro de nuestro documento con la posibilidad de reemplazarlo por alguna otra.</h5>
-        <hr>
-        <h4>Pestaña <div class="hint hint--top text-warning">Insertar:<img src="../img/office-word-insertar.jpg" class="boton"></div></h4>
-        <h5>Contiene la sección de página para insertar una portada prediseñada o una página extra.</h5>
-        <h5>Tablas nos permite insertar tablas con varias <div class="hint hint--top text-warning">opciones<img src="../img/office-word-insertar-tablas.jpg" class="boton"></div> de diseño.</h5>
-        <h5>Ilustraciones inserta imágenes a nuetro antojo, pero también cuenta con imágenes prediseñadas, formas, gráficos y capturas de pantalla.</h5>
-        <h5>Vínculos inserta enlaces que hacen más sencilla la navegación en el documento y entre otros documentos, incluso puede aceptar enlaces a páginas web.</h5>
-        <h5>Encabezado y pie de página inserta estos estilos que permanecerán estables en todo el documento.</h5>
-        <h5>Texto inserta cuadros de texto adicionales con plantillas prediseñadas y wordArt, que son estilos de fuente con formas y colores variadas. También ofrece la posibilidad de insertar líneas de firmas digitales, fecha y hora y objetos de otros documentos.</h5>
-        <h5>Por último, la sección símbolos contiene ecuaciones matemáticas preestablecidas y una variedad grande de símbolos que no están en el teclado.</h5>
-        <hr>
-        <h4>Pestaña <div class="hint hint--top text-warning">Diseño:<img src="../img/office-word-design.jpg" class="boton"></div></h4>
-        <h5>Contiene una serie de opciones que darán formato personalizado a la página que necesitamos, desde temas prediseñados, <span class="hint hint--top text-warning" aria-label="Veritical u horizontal">orientación</span>, insertar marca de agua o bordes a la página, márgenes y posición de imágenes.</h5>
-	</div>
-    <hr>
-	<div class="ejercicio">
-    	<h3>Practiquemos un poco: </h3>
-    	<h4>Las primeras computadoras fueron diseñadas para el público en general</h4>
-    	<p>Seleccione la respuesta correcta:</p>
-    	<button id='mal3' type='button'>a- No existieron las primeras computadoras</button>
-    	<button id='mal1' type='button'>b- Sólo estaban disponibles para las escuelas primarias.</button>
-    	<button id='mal2' type='button'>c- Sí, cualquiera podía comprar una Mark I.</button>
-    	<button id='bien' type='button' data-bs-toggle="modal" data-bs-target="#exampleModal">d- No, se diseñaron para las grandes instituciones y el ejército.</button>
-    	<span id="bienhecho"></span>
-	</div>
+        <div class="contenido">
+            <h1>Office</h1>
+            <h3>Continuamos con Word </h3>
+            <h4>Pestaña <div class="hint hint--top text-warning">Inicio:<img src="../img/office-word-inicio.jpg" class="boton"></div></h4>
+            <h5>Contiene las funciones principales de edición de un documento de texto.</h5>
+            <h5>Las funciones cortar, copiar y pegar están al principio, seguidas de las funciones para dar formato a la <span class="hint hint--top" aria-label="La letra">fuente</span> comoel tamaño, el color, negrita, cursiva, subrayado, entre otros.</h5>
+            <h5>Funciones de párrafo, en esta sección se encuentran los espacios entre líneas, la alineación del texto, las viñetas, elcolor de fondo y bordes.</h5>
+            <h5>Funciones de estilo, Da un formato predeterminado al documento.</h5>
+            <h5>Por último la sección de edición muestra funciones de búsqueda, reemplazo y selección. La búsqueda puede encontrar cualquier palabra que queramos dentro de nuestro documento con la posibilidad de reemplazarlo por alguna otra.</h5>
+            <hr>
+            <h4>Pestaña <div class="hint hint--top text-warning">Insertar:<img src="../img/office-word-insertar.jpg" class="boton"></div></h4>
+            <h5>Contiene la sección de página para insertar una portada prediseñada o una página extra.</h5>
+            <h5>Tablas nos permite insertar tablas con varias <div class="hint hint--top text-warning">opciones<img src="../img/office-word-insertar-tablas.jpg" class="boton"></div> de diseño.</h5>
+            <h5>Ilustraciones inserta imágenes a nuetro antojo, pero también cuenta con imágenes prediseñadas, formas, gráficos y capturas de pantalla.</h5>
+            <h5>Vínculos inserta enlaces que hacen más sencilla la navegación en el documento y entre otros documentos, incluso puede aceptar enlaces a páginas web.</h5>
+            <h5>Encabezado y pie de página inserta estos estilos que permanecerán estables en todo el documento.</h5>
+            <h5>Texto inserta cuadros de texto adicionales con plantillas prediseñadas y wordArt, que son estilos de fuente con formas y colores variadas. También ofrece la posibilidad de insertar líneas de firmas digitales, fecha y hora y objetos de otros documentos.</h5>
+            <h5>Por último, la sección símbolos contiene ecuaciones matemáticas preestablecidas y una variedad grande de símbolos que no están en el teclado.</h5>
+            <hr>
+            <h4>Pestaña <div class="hint hint--top text-warning">Diseño:<img src="../img/office-word-design.jpg" class="boton"></div></h4>
+            <h5>Contiene una serie de opciones que darán formato personalizado a la página que necesitamos, desde temas prediseñados, <span class="hint hint--top text-warning" aria-label="Veritical u horizontal">orientación</span>, insertar marca de agua o bordes a la página, márgenes y posición de imágenes.</h5>
+            <hr>
+    	    <div class="ejercicio">
+            	<h3>Practiquemos un poco: </h3>
+            	<h4>Las primeras computadoras fueron diseñadas para el público en general</h4>
+            	<p>Seleccione la respuesta correcta:</p>
+            	<button id='mal3' type='button'>a- No existieron las primeras computadoras</button>
+            	<button id='mal1' type='button'>b- Sólo estaban disponibles para las escuelas primarias.</button>
+            	<button id='mal2' type='button'>c- Sí, cualquiera podía comprar una Mark I.</button>
+            	<button id='bien' type='button' data-bs-toggle="modal" data-bs-target="#exampleModal">d- No, se diseñaron para las grandes instituciones y el ejército.</button>
+            	<span id="bienhecho"></span>
+    	    </div>
 
-    <a href="./office-power.html">otras apps</a>
-    <a href="./indice.html" class="volver">Volver al inicio</a>
-	<script src="./nivel.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+            <div class="text-center">
+                <a href="./office-word.html">Volver a clase anterior</a>
+                <a href="./indice.html" class="volver">Volver al inicio</a>
+                <a href="./office-power.html">otras apps</a>
+            </div>
+    	</div>
+
+    	<script src="./nivel.js"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
 </html>
