@@ -15,11 +15,27 @@ body {
     transform: translateX(-50%);
 }
 .contenedor-indice {
+    position: absolute;
+    width: 100%;
+    height: 100vh; /* Ocupa toda la altura del viewport */
+    background: url('../img/laptop.jpg') no-repeat center/cover;
     text-align: center;
     font-size: larger;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.indice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.indice > ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+    text-align: center;
 }
 .ejercicio{
     border: 2px solid black; /* Verde */

@@ -7,7 +7,7 @@ botonDerRaton.addEventListener('contextmenu', (event) =>{
     let instruccion = document.getElementById('instruccion');
     //let siguiente = document.createElement('a');
 	let felicidades = document.createElement('p');
-	felicidades.textContent = 'FELICIDADES! Has pasado al siguiente nivel!';
+	felicidades.textContent = 'FELICIDADES!';
     felicidades.style.color = 'green';
 	//siguiente.textContent = 'siguiente';
 	//siguiente.href = '../quiz_2/quiz_2.html';
@@ -32,7 +32,7 @@ function repaso(){
     }
 }
 
-const salir = document.getElementById('salir');
+/*const salir = document.getElementById('salir');
 salir.addEventListener('click', () => {
 	window.location.href = "../vistas/indice.html";
-});
+});*/
