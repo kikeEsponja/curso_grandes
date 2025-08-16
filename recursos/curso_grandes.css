@@ -185,6 +185,10 @@ body {
         display: flex;
         flex-direction: column;
     }
+    .imagen_practica{
+        width: 100%;
+        height: auto;
+    }
 }
 @media(max-width: 600px){
     
