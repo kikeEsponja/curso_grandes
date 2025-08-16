@@ -169,7 +169,22 @@ body {
 
 }
 @media(max-width: 800px){
-
+    .contenedor-elementos{
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+    .hero{
+        background: url(../img/portada.jpg) no-repeat right / cover;
+    }
+    .contenedor-indice{
+        background: #cecb9d;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
 }
 @media(max-width: 600px){
     

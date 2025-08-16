@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Kike ABC">
+        <meta name="description" content="videos de práctica">
+        <meta name="google-adsense-account" content="ca-pub-8575631442589730">
+        <link rel="shortcut icon" href="./src/img/logoparami2.jpg">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="../recursos/curso_grandes.css" type="text/css">
+        <title>práctica</title>
+    </head>
+    <body>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-primary">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body bg-primary">
+              	        <h2 class="text-warning">BIEN HECHO!</h2>
+                    </div>
+                    <div class="modal-footer bg-primary">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contenido">
+            <h1>Office</h1>
+            <h3>Excel</h3>
+            <h4>Esta herramienta es muy util para diversas áreas, desde la administración hasta la ingeniería.</h4>
+            <h5>Sólo se va a explicar de manera superficial pero es bueno acotar que incluso sirve para programar, lo que quiere decir que es recomendable tomar un curso para manejar excel a profundidad.</h5>
+            <h5>Se trata de una hoja de cálculo, en cuanto a las pestañas superiores, no tienen mucha diferencia con el resto de las otras, excepto por la pestaña "fórmulas" que le es propia.</h5>
+            <h5>En resumen, consta de una serie de filas y columnas que forman una matriz de celdas en las que se pueden insertar datos, pero lo interesante es la capacidad que tienen esas celdas de interactuar entre sí, pudiendo hacer cálculos que de otra forma llevarían mucho tiempo y esfuerzo.</h5>
+            <h5>Se ha convertido en una herramienta indispensable en las áreas administrativas, de informática e ingeniería.</h5>
+            <hr>
+            <div>
+                <div class="ejercicio">
+                	<h3>Practiquemos un poco: </h3>
+                	<h4>La aplicación Power Point Sirve para hacer presentaciones.</h4>
+                	<p>Seleccione la respuesta correcta:</p>
+                	<button id='mal3' type='button'>a- No existe algo llamado Excel</button>
+                	<button id='bien' type='button' data-bs-toggle="modal" data-bs-target="#exampleModal">b- Sí, se usa para hacer cosas buenas.</button>
+                    <button id='mal1' type='button'>c- Se usa para encender la máquina.</button>
+                	<button id='mal2' type='button'>d- Es un juego.</button>
+                	<span id="bienhecho"></span>
+    	        </div>
+                <hr>
+    	        <div class="ejercicio">
+                	<h3>Practiquemos un poco: </h3>
+                	<h4>Vamos a crear una hoja de presupuestos con Excel</h4>
+    	        	<p>a. Ubicamos el cursor en la barra de búsqueda: </p><img src="../img/search_bar.png" class="boton" alt="barra de búsqueda">
+		        	<p>b. Escribimos "excel" sin comillas y de la lista desplegable seleccionamos la aplicación que dice "Excel"</p><img src="../img/office-excel.jpg" class="boton" alt="símbolo de sistema">
+		        	<p>c. Esperamos unos segundos, dependiendo de nuestra máquina, y debería aparecer nuestra aplicación, y seguidamente pulsamos sobre el icono que dice "Libro en blanco", así:</p><img src="../img/office-excel_nuevo_doc.png" class="boton" alt="símbolo de sistema">
+		        	<p>d. En las celdas superiores vamos a llenar las celdas con información relacionada a un presupuesto: "Fecha", "ingresos", "descripción", "egresos", "descripción", "total", cada uno en una celda diferente. (a los que sepan de administración y contaduría, me disculpan, por favor)</p><img src="../img/office-excel_celdas.jpg" class="boton" alt="símbolo de sistema">
+                    <p>e. En las celdas subsiguientes, vamos a colocar montos y descripciones de ejemplo, pueden usar las suyas para practicar.</p><img src="../img/office-excel_suma_1.jpg" class="boton" alt="guardar como"><hr>
+                    <p>f. En la celda que está debajo de total, vamos a escribir una fórmula sencilla: "=SUMA" y la seleccionamos de la lista que se despliega (para escribir cualquier otra fórmula, comenzamos con el símbolo de igualdad "=")</p><img src="../img/office-excel_suma.jpg" class="boton" alt="guardar como">
+                    <p>g. Una vez seleccionada la opción SUMA, esta aparecerá en la barra de fórmulas en espera de ser completada.</p><img src="../img/office-excel_suma_2.jpg" class="boton" alt="guardar como">
+                    <p>h. Siguiendo la sugerencia, tocamos la celda "B" seleccionando toda la columna.</p><img src="../img/office-excel_suma_3.jpg" class="boton" alt="guardar como">
+                    <p>i. Luego, escribimos el símbolo de resta "-" y finalmente, siguiendo la sugerencia, tocamos la celda "D" seleccionando toda la columna.</p><img src="../img/office-excel_suma_4.jpg" class="boton" alt="guardar como">
+                    <p>j. Finalmente, presionamos la tecla "Enter" y debería aparecer el total de los ingresos menos los egresos.</p><img src="../img/office-excel_suma_5.jpg" class="boton" alt="símbolo de sistema">
+                    <p>k. Para ver mejor todo, presionamos la tecla "control" y sin soltarla, tocamos con el ratón las celdas "B", "D" y "F", y una vez sombreadas, tocamos el menú desplegable que dice "General".</p><img src="../img/office-excel_suma_6.jpg" class="boton" alt="símbolo de sistema">
+                    <p>l. En el menú desplegable, seleccionamos la opción "Moneda" y debería aparecer el símbolo de moneda en las celdas seleccionadas.</p>
+                    <p>m. Finalmente, para guardar el archivo, seguimos los mismos pasos que dimos con las aplicaciones "Word" y "PowerPoint".</p>
+    	        </div>
+                <div class="text-center footer">
+                    <a href="./cap_12_office-power.html">Volver a clase anterior</a>
+                    <a href="./indice.html" class="volver">Volver al inicio</a>
+                    <a href="./cap_14_office-internet.html">Internet</a>
+                </div>
+            </div>
+        </div>
+    	<script src="./nivel.js"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>

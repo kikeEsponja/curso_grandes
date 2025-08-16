@@ -37,7 +37,7 @@
     	    <h1>EL ORDENADOR</h1>
     	    <h3>Sistema operativo:</h3>
     	    <h5>La unidad asignada no es más que el directorio o carpeta principal que contendrá todos los datos que conformarán los programas y archivos. Y para crear y manipular estos archivos y carpetas, el sistema operativo cuenta con una serie decomandos preestablecidos que puede "entender"y trabajar en función de estos.</h5>
-    	    <h5>Así, y suponiendo que al encender nuestro ordenador en el año 1990 y ver el símbolo del sistema posicionado en C:\> lo primero que podíaamos hacer es pedirle a nuestro flamante equipo que nos mostrara el contenido; así que tecleamos la palabra "dir" y presionamos la tecla <span class="hint hint--top text-primary">"intro"<img src="../img/so-intro.webp" class="boton"></span> o "enter"</h5>
+    	    <h5>Así, y suponiendo que al encender nuestro ordenador en el año 1990 y ver el símbolo del sistema posicionado en C:\> lo primero que podíamos hacer es pedirle a nuestro flamante equipo que nos mostrara el contenido; así que tecleamos la palabra "dir" y presionamos la tecla <span class="hint hint--top text-primary">"intro"<img src="../img/so-intro.webp" class="boton"></span> o "enter"</h5>
     	    <h5>Mágicamente, en la pantalla aparecía todo el contenido de la unidad C:\> que para el usuario común era una <span class="hint hint--top text-primary">lista<img src="../img/so-dir.png" class="boton"></span> incomprensible de archivos que era preferible ni tocar.</h5>
     	    <h5>Entonces comprendíamos. Esos archivos no se tocan o nos tocará llamar al técnico, así que había que crear una carpeta en la que tener nuestros archivos particulares separados de esos otros intocables. Así que tecleabamos el comando "md" seguido del nombre de la carpeta que queríamos crear: "md mi_carpeta".</h5>
     	    <h5>Para estar seguros, porque el sistema no nos daba ninguna confirmación o mensaje de que lo que hicimos haya tenido éxito, más sí lo hacía si había fallado, tecleabamos de nuevo "dir" y listo, aparecía la misma lista con nuestra carpeta nueva como nuevo item. Este nuevo item se diferenciaba de los otros porque carecía de extensión, ya que las extensiones son propiedad de los archivos, no de las carpetas.</h5>
@@ -47,8 +47,8 @@
     	    <h5>Emocionante, para chismear, volvíamos a teclear "dir" a sabiendas de que no habíamos creado nada ahí, entonces la sorpresa: hay dos items ahí, qué son? uno es un punto (.) y el otro son dos puntos (..)</h5>
     	    <h5>Bueno, el punto es el sitio en el que estamos (mi_carpeta) y los dos puntos significa "regreso" o "volver". O cómo tenían pensado salir de la carpeta? bueno, se usa el mismo comando "cd" seguido de esos dos puntos: "cd.."</h5>
     	    <hr>
-    	    <h5>Lo que seguía era crear un archivo dentro de esa nueva carpeta, asi que usábamos el comando "edit" seguido del nombre y extensión del archivo a crear: "edit hola.txt" y esto nos abría un editor de texto integrado y podíamos escribir cualquier cosa. Luego guardábamos nuestro archivo con la combinación de teclas "Alt + s" y listo. Luego usabamos la combinación "Alt + x" para salir del editor.</h5>
-    	    <h5>si tecleabamos nuevamente "dir", podíamos ver, aparte del punto y los dos puntos, nuestro archivo hola.txt</h5>
+    	    <h5>Lo que seguía era crear un archivo dentro de esa nueva carpeta, asi que usábamos el comando "md" seguido del nombre y extensión del archivo a crear: "md hola.txt" y esto nos crearía un archivo que podríamos ver con nuestro clásico block de notas.</h5>
+    	    <h5>Si tecleabamos nuevamente "dir", podíamos ver, aparte del punto y los dos puntos, nuestro archivo hola.txt</h5>
     	    <h5>finalmente, y para no tener la pantalla hecha un lío, tecleabamos el comando "cls" y desaparecía todo.</h5>
 			<hr>
 			<div class="ejercicio">
@@ -61,7 +61,17 @@
     			<button id='mal3' type='button'>d- No existe el comando "md".</button>
     			<span id="bienhecho"></span>
 			</div>
-			<div class="text-center">
+						<hr>
+			<div class="ejercicio">
+    			<h3>Practiquemos un poco: </h3>
+    			<h4>Vamos a conocer la terminal</h4>
+    			<p>a. Abrimos la terminal ubicando el cursor en la barra de búsqueda (al lado del símbolo de Windows)</p><img src="../img/search_bar.png" class="boton" alt="barra de búsqueda">
+				<p>b. Escribimos "CDM" o "cdm" sin comillas y de la lista desplegable seleccionamos la aplicación que dice "símbolo de sistema"</p><img src="../img/cdm.png" class="boton" alt="símbolo de sistema">
+				<p>c. Esperamos unos segundos, dependiendo de nuestra máquina, y debería aparecer un recuadro negro, así:</p><img src="../img/system.png" class="boton" alt="símbolo de sistema">
+				<p>d. Ahora sólo vamos a cerrarla, para lo cual, presionamos el botón que está en la esquina superior derecha.</p>
+    			<span id="bienhecho"></span>
+			</div>
+			<div class="text-center footer">
 				<a href="./cap_04_sistema-operativo.html">Volver a clase 4</a>
   				<a href="./indice.html" class="volver">Volver al inicio</a>
 				<a href="./cap_06_windows.html">ir a windows</a>
