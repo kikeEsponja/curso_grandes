@@ -192,13 +192,13 @@ body {
     }
 }
 @media(max-width: 600px){
-    
-}
-@media(max-width: 400px){
-        .hero{
+    .hero{
         background: url(../img/portada.jpg) no-repeat right / cover;
         background-position-x: 85%;
         align-items: flex-end;
     }
+}
+@media(max-width: 400px){
+
 
 }
