@@ -180,6 +180,7 @@ body {
     }
     .contenedor-indice{
         background: #cecb9d;
+        height: auto;
     }
     .footer{
         display: flex;
@@ -194,5 +195,10 @@ body {
     
 }
 @media(max-width: 400px){
+        .hero{
+        background: url(../img/portada.jpg) no-repeat right / cover;
+        background-position-x: 85%;
+        align-items: flex-end;
+    }
 
 }
